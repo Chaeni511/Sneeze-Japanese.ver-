@@ -1,14 +1,38 @@
-# 1. 팀원 정보
+# 1. チーム情報
 
-## 1.1. 서재건
+## 1.1. イ·チェウン
 
-> 백엔드
+> BE
+
+- accounts
+  
+  `dj_rest_auth`を使った ログイン、会員登録
+
+- Accounts
+  
+  ユーザープロフィールページ構成
+  
+  modalを使ってフォロワーリスト具現
+
+- HomeView
+  
+  Vue routerを活用したナヴィゲーションバー
+  
+  Carouselでおすすめ映画情報提供
+
+- CSS
+  
+  CSS全般、ホームページデザイン
+
+## 1.2. 서재건
+
+> BE
 
 - accounts(userinfo), community, movies 구현
   
    알고리즘 : 유저의 좋아요, 리뷰 기반 장르 비교를 통해 영화 추천
 
->  프론트
+>  FE
 
 - MovieDetail 
   
@@ -23,30 +47,6 @@
   - file 컴포넌트에서 사용자 및 유저 데이터 가져오기
   
   - Card 컴포넌트로 swiper 구현
-
-## 1.2. 이채은
-
-> 백엔드
-
-- Accounts(accounts)
-  
-  dj_rest_auth를 사용한 login, signup 구현
-
-> 프론트엔드
-
-- Accounts
-  
-  유저 Profile 구성
-
-- HomeView
-  
-  Vue router를 활용한 nav 바 구성
-  
-  Carousel을 통
-
-- CSS
-  
-  CSS 전반 및 홈페이지 디자인
 
 # 2. 목표 서비스 구현 및 실제 구현 정도
 
@@ -113,7 +113,7 @@
    - 프로필 페이지 내에 팔로우 수, 팔로워 수, 좋아요한 영화 수 제공
    - 좋아요한 영화와 리뷰한 영화 제공
 
-# 3. 데이터베이스 모델링
+# 3. データベースモデリング
 
 ## 3.1. Model
 
@@ -123,9 +123,7 @@
 
 ![Component ERD.drawio.png](README_assets/Component%20ERD.png)
 
-# 4. 영화 추천 알고리즘
-
-총 5가지의 영화 데이터를 출력
+# 4. 映画おすすめのアルゴリズム
 
 ## 4.1. 취향저격 베스트 콘텐츠
 
